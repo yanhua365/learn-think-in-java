@@ -4,9 +4,21 @@ import java.io.File;
 
 public class DirList {
 
-    public String[] list() {
-        File path = new File(".");
+    private final File dir;
 
-        return  path.list();
+    public DirList(String dir) {
+        this.dir = new File(dir);
+    }
+
+    public DirList(File dir) {
+        this.dir = dir;
+    }
+
+    public DirList() {
+        this.dir = new File(".");
+    }
+
+    public String[] list() {
+        return  dir.list();
     }
 }
