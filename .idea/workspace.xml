@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="992b8f7c-ecea-4d78-af2d-02a89eb3432c" name="Default" comment="增加一些说明">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/yanhua365/learn/thinkinjava/io/DirList.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/yanhua365/learn/thinkinjava/io/DirList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/yanhua365/learn/thinkinjava/io/DirListTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/yanhua365/learn/thinkinjava/io/DirListTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="992b8f7c-ecea-4d78-af2d-02a89eb3432c" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\.idea\gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\.idea\libraries\commons_collections_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\.idea\libraries\hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\.idea\libraries\junit_4_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\src\main\resources\org\io\resource.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\work\learn\think_in_java\src\test\resources\org\io\test-resource.xml" afterPath="" />
     </list>
     <ignored path="think_in_java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,7 +26,7 @@
     <file path="/DirList.java" changelist="992b8f7c-ecea-4d78-af2d-02a89eb3432c" time="1380763551018" ignored="false" />
     <file path="/DirLisTest.java" changelist="992b8f7c-ecea-4d78-af2d-02a89eb3432c" time="1380725866593" ignored="false" />
     <file path="/a.java" changelist="992b8f7c-ecea-4d78-af2d-02a89eb3432c" time="1380711966082" ignored="false" />
-    <file path="/Dummy.txt" changelist="992b8f7c-ecea-4d78-af2d-02a89eb3432c" time="1380762904895" ignored="false" />
+    <file path="/Dummy.txt" changelist="992b8f7c-ecea-4d78-af2d-02a89eb3432c" time="1380766647066" ignored="false" />
     <file path="/build.gradle" changelist="992b8f7c-ecea-4d78-af2d-02a89eb3432c" time="1380721885580" ignored="false" />
     <file path="/fragment.java" changelist="992b8f7c-ecea-4d78-af2d-02a89eb3432c" time="1380725027191" ignored="false" />
     <file path="/DirListTest.java" changelist="992b8f7c-ecea-4d78-af2d-02a89eb3432c" time="1380763595732" ignored="false" />
@@ -747,19 +759,23 @@
       <created>1380728156826</created>
       <updated>1380728156826</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="DirList增加了模式过滤功能">
+      <created>1380766653288</created>
+      <updated>1380766653288</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.6017316" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3982684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3982684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -823,7 +839,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加一些说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="DirList增加了模式过滤功能" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -840,6 +856,7 @@
     <MESSAGE value="初始化工程" />
     <MESSAGE value="完成DirList示例" />
     <MESSAGE value="增加一些说明" />
+    <MESSAGE value="DirList增加了模式过滤功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
