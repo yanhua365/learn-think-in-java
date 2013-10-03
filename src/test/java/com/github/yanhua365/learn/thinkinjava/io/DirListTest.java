@@ -32,7 +32,7 @@ public class DirListTest {
     }
 
     @Test
-    public void shouldListFilsInCaseInsensitiveOrder() {
+    public void shouldListFilesInCaseInsensitiveOrder() {
         //可以列出当前目录下的文件
         List<String> list = Arrays.asList(new DirList().list());
         List<String> originalList = new ArrayList<String>();
@@ -40,5 +40,13 @@ public class DirListTest {
 
         Collections.sort(list, String.CASE_INSENSITIVE_ORDER);
         assertThat(list, equalTo(originalList));
+    }
+
+
+    @Test
+    public void shouldListFilesMatchThePattern() {
+        //可以列出当前目录下的文件
+        List<String> list = Arrays.asList(new DirList("./src","^m.*n$").list());
+        assertThat(list, hasItem("main"));
     }
 }
