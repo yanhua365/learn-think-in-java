@@ -49,6 +49,7 @@ public class DirWalkerTest {
 
     @Test
     public void shouldWalkInTheEmptyDir() throws FileNotFoundException {
+        //发现一个bug - Git不会跟踪空目录
         String emptyDirPath = rootPath + SEP + "dir1" + SEP + "empty_dir";
         File dir = new File(emptyDirPath);
         DirWalker walker = new DirWalker(dir);
